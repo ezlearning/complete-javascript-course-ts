@@ -1,0 +1,21 @@
+{
+  "name": "vanilla-ts-web",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@types/leaflet": "^1.7.4",
+    "@types/node": "^16.4.13",
+    "sass": "^1.37.5",
+    "typescript": "^4.3.2",
+    "vite": "^2.4.4"
+  },
+  "dependencies": {
+    "leaflet": "^1.7.1",
+    "mathjs": "^9.4.4"
+  }
+}
